@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+/* * {
+  border: 1px solid limegreen;
+} */
+body {
+  background-color: rgb(35, 37, 37);
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  max-width: 960px; /*to do it responsive*/
+  margin: 0 auto;
+  background-color: #ccc;
+  padding: 1em; /*size of letter  m*/
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+nav {
+  text-align: right;
+}
+nav a {
+  color: green;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(35, 37, 37);
+  color: #ccc;
+  font-size: 400%;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+main {
+  width: 75%;
+  display: inline-block;
+}
+main img {
+  display: block; /* becuase you cant set margin  on display inline(the defualt for img)*/
+  margin: 0 auto;
+}
+aside {
+  width: 20%; /*in CSS 75 + 24% = 100*/
+  display: inline-block;
+  vertical-align: top;
+  background-color: #cfc;
+  padding: 1em;
+  border-radius: 0.5em;
+  box-shadow: 0px 15px 15px black;
+}
+aside ul {
+  padding-left: 18px;
+}
